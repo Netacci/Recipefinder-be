@@ -16,6 +16,7 @@ const recipeSchema = new mongoose.Schema({
   ],
   ingredients: [String],
   instructions: [String],
+  searchName: String,
 });
 
 const Recipe = mongoose.model('Recipe', recipeSchema);

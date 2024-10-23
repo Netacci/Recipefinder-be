@@ -20,6 +20,7 @@ const getRecipe = async (req, res) => {
         return res.status(404).json(recipe);
       }
       recipe.imageURL = image;
+      recipe.searchName = name;
       const newRecipe = new Recipe(recipe);
       await newRecipe.save();
     }
