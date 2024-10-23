@@ -1,0 +1,38 @@
+{
+  "name": "recipefinder-backend",
+  "version": "1.0.0",
+  "description": "Find recipe for foods all around the wolrd",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "recipe",
+    "food",
+    "countries",
+    "spices"
+  ],
+  "author": "Netacci",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "groq-sdk": "^0.7.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.1",
+    "morgan": "^1.10.0",
+    "uuid": "^10.0.0",
+    "validator": "^13.12.0",
+    "winston": "^3.14.2"
+  }
+}
